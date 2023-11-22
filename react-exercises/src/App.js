@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import CounterApp from './pages/exercises/counter';
+import LevenshteinDistance from './pages/exercises/Algochurn.com/findLevenshteinDistance';
 
 function App() {
   return (
     <div id="coding-practice-div-parent-tag">
      <CounterApp />
+     <LevenshteinDistance />
     </div>
     // <div className="App">
     //   <header className="App-header">
