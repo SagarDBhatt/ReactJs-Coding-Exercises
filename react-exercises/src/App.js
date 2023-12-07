@@ -3,36 +3,23 @@ import './App.css';
 import CounterApp from './pages/exercises/counter';
 import LevenshteinDistance from './pages/exercises/Algochurn.com/findLevenshteinDistance';
 import CalculateTheSmallestDifference from './pages/exercises/Algochurn.com/calcSmallestDifferenceBetnArrays';
-import SolveDiagonalDifference from './pages/exercises/HackerRank/Algorithm/DiagonalDifference';
+import SolveDiagonalDifference from './pages/exercises/HackerRank/Algorithm/Warmup/DiagonalDifference';
+import ArrayRatio from './pages/exercises/HackerRank/Algorithm/Warmup/ArrayRatio';
 
 function App() {
   return (
     <div id="coding-practice-div-parent-tag">
-     <CounterApp />
-     <LevenshteinDistance />
+      <ArrayRatio />
+
+
+     {/* <CounterApp />
+     <LevenshteinDistance /> */}
 
       {/* Exercise 3: */}
-      <CalculateTheSmallestDifference />
-
-      <SolveDiagonalDifference />
+      {/* <CalculateTheSmallestDifference /> */}
+      {/* <SolveDiagonalDifference /> */}
     
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
