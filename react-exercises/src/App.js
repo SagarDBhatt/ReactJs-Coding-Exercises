@@ -5,12 +5,15 @@ import LevenshteinDistance from './pages/exercises/Algochurn.com/findLevenshtein
 import CalculateTheSmallestDifference from './pages/exercises/Algochurn.com/calcSmallestDifferenceBetnArrays';
 import SolveDiagonalDifference from './pages/exercises/HackerRank/Algorithm/Warmup/DiagonalDifference';
 import ArrayRatio from './pages/exercises/HackerRank/Algorithm/Warmup/ArrayRatio';
+import DrawStaircase from './pages/exercises/HackerRank/Algorithm/Warmup/Staircase';
 
 function App() {
   return (
     <div id="coding-practice-div-parent-tag">
-      <ArrayRatio />
+      <DrawStaircase name="test" n={5} />
 
+      {/* Ex 4 - Staircase */}
+      {/* <ArrayRatio /> */}
 
      {/* <CounterApp />
      <LevenshteinDistance /> */}
