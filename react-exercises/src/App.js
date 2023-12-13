@@ -6,13 +6,17 @@ import CalculateTheSmallestDifference from './pages/exercises/Algochurn.com/calc
 import SolveDiagonalDifference from './pages/exercises/HackerRank/Algorithm/Warmup/DiagonalDifference';
 import ArrayRatio from './pages/exercises/HackerRank/Algorithm/Warmup/ArrayRatio';
 import DrawStaircase from './pages/exercises/HackerRank/Algorithm/Warmup/Staircase';
+import Ex4_MinMaxSum from './pages/exercises/HackerRank/Algorithm/Warmup/Ex4_MinMaxSum';
 
 function App() {
   return (
     <div id="coding-practice-div-parent-tag">
-      <DrawStaircase name="test" n={5} />
+      <Ex4_MinMaxSum />
 
       {/* Ex 4 - Staircase */}
+      {/* <DrawStaircase name="test" n={5} /> */}
+
+      
       {/* <ArrayRatio /> */}
 
      {/* <CounterApp />
